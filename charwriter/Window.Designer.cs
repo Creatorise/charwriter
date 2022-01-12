@@ -28,53 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.text_area = new System.Windows.Forms.RichTextBox();
+            this.background = new System.Windows.Forms.Panel();
+            this.open_file_dialog = new System.Windows.Forms.OpenFileDialog();
+            this.background.SuspendLayout();
             this.SuspendLayout();
             // 
-            // richTextBox1
+            // text_area
             // 
-            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox1.Font = new System.Drawing.Font("Fira Code", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.richTextBox1.Location = new System.Drawing.Point(16, 16);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(10);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(412, 359);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "Charwriter\n\nUse default shortcuts like ctrl+o to open and ctrl+s to save";
+            this.text_area.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.text_area.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.text_area.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.text_area.Font = new System.Drawing.Font("Fira Code", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.text_area.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.text_area.Location = new System.Drawing.Point(16, 16);
+            this.text_area.Margin = new System.Windows.Forms.Padding(10);
+            this.text_area.Name = "text_area";
+            this.text_area.Size = new System.Drawing.Size(412, 359);
+            this.text_area.TabIndex = 0;
+            this.text_area.Text = "Charwriter\n\nUse default shortcuts like ctrl+o to open and ctrl+s to save";
+            this.text_area.KeyDown += new System.Windows.Forms.KeyEventHandler(this.text_area__key_down);
             // 
-            // panel1
+            // background
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.panel1.Controls.Add(this.richTextBox1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(16);
-            this.panel1.Size = new System.Drawing.Size(444, 391);
-            this.panel1.TabIndex = 1;
+            this.background.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.background.Controls.Add(this.text_area);
+            this.background.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.background.Location = new System.Drawing.Point(0, 0);
+            this.background.Name = "background";
+            this.background.Padding = new System.Windows.Forms.Padding(16);
+            this.background.Size = new System.Drawing.Size(444, 391);
+            this.background.TabIndex = 1;
+            // 
+            // open_file_dialog
+            // 
+            this.open_file_dialog.FileName = "openFileDialog1";
             // 
             // Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(444, 391);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.background);
             this.KeyPreview = true;
             this.Name = "Window";
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
+            this.background.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private RichTextBox richTextBox1;
-        private Panel panel1;
+        private RichTextBox text_area;
+        private Panel background;
+        private OpenFileDialog open_file_dialog;
     }
 }
