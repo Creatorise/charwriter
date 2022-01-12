@@ -31,6 +31,7 @@
             this.text_area = new System.Windows.Forms.RichTextBox();
             this.background = new System.Windows.Forms.Panel();
             this.open_file_dialog = new System.Windows.Forms.OpenFileDialog();
+            this.save_file_dialog = new System.Windows.Forms.SaveFileDialog();
             this.background.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,5 +84,6 @@
         private RichTextBox text_area;
         private Panel background;
         private OpenFileDialog open_file_dialog;
+        private SaveFileDialog save_file_dialog;
     }
 }
