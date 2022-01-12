@@ -65,6 +65,10 @@
             // 
             this.open_file_dialog.FileName = "openFileDialog1";
             // 
+            // save_file_dialog
+            // 
+            this.save_file_dialog.FileName = "untitled.txt";
+            // 
             // Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
