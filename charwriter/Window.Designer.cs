@@ -45,7 +45,7 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(412, 359);
             this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.richTextBox1.Text = "Charwriter\n\nUse default shortcuts like ctrl+o to open and ctrl+s to save";
             // 
             // panel1
             // 
@@ -64,6 +64,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(444, 391);
             this.Controls.Add(this.panel1);
+            this.KeyPreview = true;
             this.Name = "Window";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
