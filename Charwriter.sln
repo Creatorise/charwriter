@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Charview.View", "View\Charview.View.csproj", "{F8909159-1875-4F3A-B48D-3D25ED1ED056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charwriter.Logic", "Logic\Charwriter.Logic.csproj", "{34245878-283F-4E8B-A0A9-8E8D579CBB3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8909159-1875-4F3A-B48D-3D25ED1ED056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8909159-1875-4F3A-B48D-3D25ED1ED056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8909159-1875-4F3A-B48D-3D25ED1ED056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8909159-1875-4F3A-B48D-3D25ED1ED056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34245878-283F-4E8B-A0A9-8E8D579CBB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34245878-283F-4E8B-A0A9-8E8D579CBB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34245878-283F-4E8B-A0A9-8E8D579CBB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34245878-283F-4E8B-A0A9-8E8D579CBB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {709E597A-872E-43A9-938F-01FCEEC91D21}
+	EndGlobalSection
+EndGlobal
