@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="c8395dc5-8c3d-4140-9cd1-4a001356b92c" Title="Charwriter.Logic" Url="html/ce70fcf6-4349-5867-c211-349dbb868c96.htm">
+    <HelpTOCNode Id="f6ac3598-86d1-4f44-b65b-21d002ac43ca" Title="File_management Class" Url="html/ac0d024a-8372-d804-0cb1-bbfea0fa3c8a.htm">
+      <HelpTOCNode Id="1e8e3dda-91dc-4608-b44d-2eb8ddd78229" Title="File_management Methods" Url="html/b08a40a4-fcab-554e-208d-f241aee3b529.htm">
+        <HelpTOCNode Title="read Method " Url="html/66a8e8bb-b39a-ba13-fabc-774cb3078432.htm" />
+        <HelpTOCNode Title="write Method " Url="html/f6490392-6102-c2ec-4151-5591d9102e37.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

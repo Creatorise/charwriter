@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Charwriter.Logic</name>
+    </assembly>
+    <members>
+        <member name="T:Charwriter.Logic.File_management">
+            <summary>
+            Manage read and write to files
+            </summary>
+        </member>
+        <member name="M:Charwriter.Logic.File_management.read(System.String)">
+            <summary>
+            Read all content from file
+            </summary>
+            <param name="file_name">File name</param>
+            <returns>Content</returns>
+        </member>
+        <member name="M:Charwriter.Logic.File_management.write(System.String,System.String)">
+            <summary>
+            Write content to file
+            </summary>
+            <param name="file_name">File name</param>
+            <param name="content">Content</param>
+        </member>
+    </members>
+</doc>
